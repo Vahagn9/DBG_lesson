@@ -47,10 +47,7 @@ elif ex_num == 3:
             if P % i == 0:
                 is_prime = False
                 break
-    if is_prime:
-        print("The number is Prime")
-    else:
-        print("The number is not Prime")
+    print(P, ":", "The number is Prime" if is_prime else "The number is not Prime")
 # ===== exercise 4 =====
 elif ex_num == 4:
     print("running exercise:", ex_num)
