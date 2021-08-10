@@ -35,7 +35,7 @@ def calculate_sum_of_lists_members(list_in: list):
     return members_sum
 
 
-# === ex. 6 ===
+# === ex. 5 ===
 def remove_duplicates_from_a_list(list_a: list):
     """Write a Python program to remove duplicates from a list."""
     unique_items = []
@@ -49,7 +49,7 @@ def remove_duplicates_from_a_list(list_a: list):
 
 # === ex. 6 ===
 def get_unique_values_from_a_list(list_a: list):
-    """Write a Python program to remove duplicates from a list."""
+    """Write a Python program to get unique values from a list."""
     unique_items = []
     for i in list_a:
         if i not in unique_items:
